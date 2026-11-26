@@ -1,0 +1,84 @@
+/* Pengaturan dasar */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background: #f5f7fb;
+  line-height: 1.5;
+}
+
+/* Contoh latar untuk memperlihatkan tombol soal 1 */
+.contoh-panel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 28px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6366f1, #4338ca);
+}
+
+/* SOAL 1: Tombol pill (Sudah Bagus!) */
+.tombol-tanya {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 22px;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #4338ca;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tombol-tanya:hover {
+  background: #4338ca;
+  color: #ffffff;
+}
+
+/* SOAL 2: Styling Header & Brand */
+.header-toko {
+  background: #ffffff;
+  padding: 16px 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.brand-toko {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-toko {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.brand-teks {
+  display: flex;
+  flex-direction: column;
+}
+
+.nama-toko {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.2;
+}
+
+.tagline-toko {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
